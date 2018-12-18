@@ -30,11 +30,11 @@ public class DailyRoutine {
         //uiDevice.pressRecentApps();
         //Thread.sleep(1000);
         //uiDevice.findObject(By.desc("Close all")).click();
-        Thread.sleep(1000);
+        Thread.sleep(300);
         uiDevice.findObject(By.text("Play Store")).click();
         Thread.sleep(2000);
         uiDevice.findObject(By.desc("Search")).click();
-        Thread.sleep(1000);
+        Thread.sleep(300);
         String[] key ={     "lose weight",
                             "step counter",
                             "pedometer",
@@ -53,20 +53,20 @@ public class DailyRoutine {
                             "free qr code reader"};
 
         uiDevice.findObject(By.text("Search Google Play")).setText(key[0]);
-        Thread.sleep(1000);
+        Thread.sleep(300);
         uiDevice.pressEnter();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         uiDevice.takeScreenshot(new File("/data/data/com.example.dailyroutine/"+key[0]+".png"));
-        Thread.sleep(1000);
+        Thread.sleep(500);
         for(int i=1;i<16;i++){
         uiDevice.findObject(By.text(key[i-1])).click();
-        Thread.sleep(1000);
+        Thread.sleep(300);
         uiDevice.findObject(By.text(key[i-1])).setText(key[i]);
-        Thread.sleep(1000);
+        Thread.sleep(300);
         uiDevice.pressEnter();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         uiDevice.takeScreenshot(new File("/data/data/com.example.dailyroutine/"+key[i]+".png"));
-        Thread.sleep(1000);
+        Thread.sleep(300);
         }
     }
 }
