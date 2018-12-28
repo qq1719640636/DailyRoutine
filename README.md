@@ -1,2 +1,2 @@
 # DailyRoutine
-#可以用作Google play排名刷榜
+#可以用作Google play关键词排名刷榜
