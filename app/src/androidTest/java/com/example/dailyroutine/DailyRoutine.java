@@ -102,7 +102,7 @@ public class DailyRoutine {
         uiDevice.pressBack();
         Thread.sleep(500);
         while(j>0){
-                uiDevice.swipe(20,80,20,1780,200);
+                uiDevice.swipe(20,80,20,1780,100);
                 Thread.sleep(1000);
                 j--;
         }
