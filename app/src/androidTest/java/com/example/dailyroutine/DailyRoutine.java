@@ -66,7 +66,7 @@ public class DailyRoutine {
                             "Abs Workout - Burn Belly Fat with No Equipment",//abs
                             "Female Fitness - Women Workout",//women
                             "Lose Belly Fat in 30 Days - Flat Stomach",//lose belly
-                            "All Video Downloader 2018",//VD
+                            "Video Downloader",//VD
                             "Sleep Sounds Free - Relax Music, White Noise",//sleep
                             "Walking App - Walking for Weight Loss",//walk plan
                             "Walking App - Walking for Weight Loss",
